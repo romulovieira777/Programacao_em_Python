@@ -15,6 +15,22 @@ float(<variável>)
 nota1 = float(input("Entre com a primeira nota: "))
 ~~~
 
+**O que faz a função import:**
+
+É uma linha com o caminho completo para o arquivo python que contem o módulo que se deseja importar.
+
+**Sintaxe**
+
+~~~py
+import(<biblioteca>)
+~~~
+
+**Exemplo**
+
+~~~py
+import math
+~~~
+
 **O que faz a função input:**
 
 É para entrada de dados feita pelo usuário.
@@ -45,6 +61,38 @@ print(<variável>)
 
 ~~~py
 print('Olá, Mundo!')
+~~~
+
+**O que a função round faz:**
+
+É receber um número qualquer e arredondar ele.
+
+**Sintaxe**
+
+~~~py
+round(<variável>)
+~~~
+
+**Exemplo**
+
+~~~py
+print(round(1.3569874587, 6))
+~~~
+
+**O que a função sqrt faz:**
+
+Retorna a raíz quadrada do número.
+
+**Sintaxe**
+
+~~~py
+sqrt(<variável>)
+~~~
+
+**Exemplo**
+
+~~~py
+print(sqrt(81))
 ~~~
 
 **O que a função str faz:**
