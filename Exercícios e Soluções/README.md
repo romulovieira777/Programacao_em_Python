@@ -1,4 +1,44 @@
 ### :computer: Comandos em Python que foram usados nos Arquivos acima: :rocket:
+**O que faz a função elif:**
+
+É parecida com else, porém a usamos quando queremos atribuir uma condição para else.
+
+**Sintaxe**
+
+~~~py
+elif(<variável>)
+~~~
+
+**Exemplo**
+
+~~~py
+age = int(input('Enter your age: '))
+if (age >= 0) and (age <= 12):
+    print('Your are Child!')
+elif (age >= 13) and (age <= 17):
+    print(' Your are a Teenager!')
+~~~
+
+**O que faz a função else:**
+
+A instrução else é uma instrução dependente, isto é, uma instrução que não pode ser utilizada sozinha. A seguir, temos um exemplo, utilizando a instrução if junto a instrução else. A instrução else só é executada se a condição do if for falsa.
+
+**Sintaxe**
+
+~~~py
+else:
+~~~
+
+**Exemplo**
+
+~~~py
+idade = 18
+if idade >= 18:
+    print('maior de idade')
+else:
+    print('menor de idade')
+~~~
+
 **O que faz a função float:**
 
 Devolve um número de ponto flutuante construído a partir de um número ou string.
@@ -13,6 +53,24 @@ float(<variável>)
 
 ~~~py
 nota1 = float(input("Entre com a primeira nota: "))
+~~~
+
+**O que faz a função if:**
+
+É uma estrutura de condição que permite avaliar uma expressão e, de acordo com seu resultado, executar uma determinada ação.
+
+**Sintaxe**
+
+~~~py
+if(<variável>)
+~~~
+
+**Exemplo**
+
+~~~py
+idade = 18
+if idade < 20:
+    print('Você é jovem!')
 ~~~
 
 **O que faz a função input:**
