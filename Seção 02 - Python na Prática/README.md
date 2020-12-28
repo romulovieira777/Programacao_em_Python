@@ -35,6 +35,24 @@ float(<variável>)
 nota1 = float(input("Entre com a primeira nota: "))
 ~~~
 
+**O que faz a função for:**
+
+Executa um ciclo para cada elemento do objeto que está sendo iterado.
+
+**Sintaxe**
+
+~~~py
+for <variável> in <objeto iterável>:
+    bloco de instrução
+~~~
+
+**Exemplo**
+
+~~~py
+for numero in range(1, 6):
+    print(numero)
+~~~
+
 **O que faz a função if:**
 
 É uma estrutura de condição que permite avaliar uma expressão e, de acordo com seu resultado, executar uma determinada ação.
@@ -149,30 +167,21 @@ str(<variável>)
 nome = str(input('Qual é seu nome? '))
 ~~~
 
+**O que a função while faz:**
 
+Repete a sequência de comandos definida em seu corpo enquanto a <condição> permanece verdadeira.
 
+**Sintaxe**
 
+~~~py
+while(<condição>):
+~~~
 
+**Exemplo**
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+~~~py
+numero = 1
+while numero < 6:
+    print(numero)
+    numero += 1
+~~~
