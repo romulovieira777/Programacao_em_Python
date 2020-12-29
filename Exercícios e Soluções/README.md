@@ -55,6 +55,24 @@ float(<variável>)
 nota1 = float(input("Entre com a primeira nota: "))
 ~~~
 
+**O que faz a função for:**
+
+Executa um ciclo para cada elemento do objeto que está sendo iterado.
+
+**Sintaxe**
+
+~~~py
+for <variável> in <objeto iterável>:
+        bloco de instrução
+~~~
+
+**Exemplo**
+
+~~~py
+for numero in range(1, 6):
+    print(numero)
+~~~
+
 **O que faz a função if:**
 
 É uma estrutura de condição que permite avaliar uma expressão e, de acordo com seu resultado, executar uma determinada ação.
@@ -71,6 +89,22 @@ if(<variável>)
 idade = 18
 if idade < 20:
     print('Você é jovem!')
+~~~
+
+**O que faz a função in:**
+
+Verifica se o operando a sua esquerda, está contido na lista a sua direita.
+
+**Sintaxe**
+
+~~~py
+ in (<variável>)
+~~~
+
+**Exemplo**
+
+~~~py
+2 and 3 in range(1,6)
 ~~~
 
 **O que faz a função input:**
@@ -121,6 +155,22 @@ print(<variável>)
 print('Olá, Mundo!')
 ~~~
 
+**O que a função range faz:**
+
+Permite-nos especificar o início da sequência, o passo, e o valor final.
+
+**Sintaxe**
+
+~~~py
+range(<variável>):
+~~~
+
+**Exemplo**
+
+~~~py
+range(0, 10)
+~~~
+
 **O que a função round faz:**
 
 É receber um número qualquer e arredondar ele.
@@ -136,3 +186,24 @@ round(<variável>)
 ~~~py
 print(round(1.3569874587, 6))
 ~~~
+
+**O que a função while faz:**
+
+Repete a sequência de comandos definida em seu corpo enquanto a <condição> permanece verdadeira.
+
+**Sintaxe**
+
+~~~py
+while(<condição>):
+~~~
+
+**Exemplo**
+
+~~~py
+numero = 1
+while numero < 6:
+    print(numero)
+    numero += 1
+~~~
+
+
