@@ -1,4 +1,22 @@
 ### :computer: Comandos em Python que foram usados nos Arquivos acima: :rocket:
+**O que faz a função def:**
+
+É para definir uma função que é uma sequência de comandos que executa alguma tarefa e que tem um nome.
+
+**Sintaxe**
+
+~~~py
+def nome(<parâmetros>):
+    comandos:
+~~~
+
+**Exemplo**
+
+~~~py
+def hello(meu_nome):
+  print('Olá',meu_nome)
+~~~
+
 **O que faz a função else:**
 
 A instrução else é uma instrução dependente, isto é, uma instrução que não pode ser utilizada sozinha. A seguir, temos um exemplo, utilizando a instrução if junto a instrução else. A instrução else só é executada se a condição do if for falsa.
@@ -149,6 +167,24 @@ range(<variável>):
 
 ~~~py
 range(0, 10)
+~~~
+
+**O que a função return faz:**
+
+É utilizada para declarar a informação a ser retornada pela função.
+
+**Sintaxe**
+
+~~~py
+return(<condição>):
+~~~
+
+**Exemplo**
+
+~~~py
+def soma(x,y):
+    num = x * y
+    return num
 ~~~
 
 **O que a função round faz:**
