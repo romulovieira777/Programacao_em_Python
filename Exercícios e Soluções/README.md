@@ -13,6 +13,7 @@ elif(<variável>)
 
 ~~~py
 age = int(input('Enter your age: '))
+
 if (age >= 0) and (age <= 12):
     print('Your are Child!')
 elif (age >= 13) and (age <= 17):
@@ -63,7 +64,7 @@ Executa um ciclo para cada elemento do objeto que está sendo iterado.
 
 ~~~py
 for <variável> in <objeto iterável>:
-        bloco de instrução
+    bloco de instrução
 ~~~
 
 **Exemplo**
