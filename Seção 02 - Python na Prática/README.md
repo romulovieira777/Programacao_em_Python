@@ -61,7 +61,7 @@ Executa um ciclo para cada elemento do objeto que está sendo iterado.
 
 ~~~py
 for <variável> in <objeto iterável>:
-        bloco de instrução
+    bloco de instrução
 ~~~
 
 **Exemplo**
