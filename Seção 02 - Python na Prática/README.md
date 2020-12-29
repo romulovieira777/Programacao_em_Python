@@ -71,6 +71,22 @@ if idade < 20:
     print('Você é jovem!')
 ~~~
 
+**O que faz a função in:**
+
+Verifica se o operando a sua esquerda, está contido na lista a sua direita.
+
+**Sintaxe**
+
+~~~py
+ in (<variável>)
+~~~
+
+**Exemplo**
+
+~~~py
+2 and 3 in range(1,6)
+~~~
+
 **O que faz a função import:**
 
 É uma linha com o caminho completo para o arquivo python que contem o módulo que se deseja importar.
@@ -117,6 +133,22 @@ print(<variável>)
 
 ~~~py
 print('Olá, Mundo!')
+~~~
+
+**O que a função range faz:**
+
+Permite-nos especificar o início da sequência, o passo, e o valor final.
+
+**Sintaxe**
+
+~~~py
+range(<variável>):
+~~~
+
+**Exemplo**
+
+~~~py
+range(0, 10)
 ~~~
 
 **O que a função round faz:**
