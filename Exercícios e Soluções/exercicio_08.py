@@ -39,10 +39,10 @@ def used_liters(distance):
 
 def show(velocity, time, distance, liters):
     # Apresenta os Valores na Tela do Usuário
-    print('', velocity)
-    print('', time)
-    print('', distance)
-    print('', liters)
+    print('Your valocity:', time)
+    print('Your time: ', velocity)
+    print('Your distance: ', distance)
+    print('Your Liters: ', liters)
 
 
 # Chamando as Fuções Criadas a cima e Criando Três Variáveis
