@@ -363,6 +363,21 @@ set(<lista ou tupla>)
 print(set(biomolecules))
 ~~~
 
+**O que a função shape faz:**
+
+Retorna um tuple de dimensões da matriz.
+
+**Sintaxe**
+
+~~~py
+my_array.shape
+~~~
+
+**Exemplo**
+
+~~~py
+array_shape = my_array.shape
+~~~
 
 **O que a função sqrt faz:**
 
