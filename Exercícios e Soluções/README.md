@@ -1,4 +1,52 @@
 ### :computer: Comandos em Python que foram usados nos Arquivos acima: :rocket:
+**O que faz a função append:**
+
+Adiciona qualquer valor completo, por exemplo, se enviarmos um objeto, ele adiciona o objeto, se enviarmos uma lista, ele adiciona a lista inteira ao invés de seus itens.
+
+**Sintaxe**
+
+~~~py
+append(<variável>):
+~~~
+
+**Exemplo**
+
+~~~py
+lista_04.append('Gorila')
+~~~
+
+**O que faz a função as:**
+
+Adiciona um apelido.
+
+**Sintaxe**
+
+~~~py
+as(<apelido>):
+~~~
+
+**Exemplo**
+
+~~~py
+import numpy as np
+~~~
+
+**O que faz a função array:**
+
+São estruturas de dados semelhantes às listas do Python, mas não tão flexíveis.
+
+**Sintaxe**
+
+~~~py
+array([[2, 3, 1], [4, 5, 7]])
+~~~
+
+**Exemplo**
+
+~~~py
+matriz = np.array([[2, 3, 1], [4, 5, 7]])
+~~~
+
 **O que faz a função def:**
 
 É para definir uma função que é uma sequência de comandos que executa alguma tarefa e que tem um nome.
@@ -110,6 +158,22 @@ if idade < 20:
     print('Você é jovem!')
 ~~~
 
+**O que faz a função import:**
+
+É uma linha com o caminho completo para o arquivo python que contem o módulo que se deseja importar.
+
+**Sintaxe**
+
+~~~py
+import(<biblioteca>)
+~~~
+
+**Exemplo**
+
+~~~py
+import math
+~~~
+
 **O que faz a função in:**
 
 Verifica se o operando a sua esquerda, está contido na lista a sua direita.
@@ -156,6 +220,22 @@ int(<variável>)
 
 ~~~py
 number_01 = int(input('Enter the first number: '))
+~~~
+
+**O que faz a função len:**
+
+Retorna a quantidade de elementos de qualquer lista.
+
+**Sintaxe**
+
+~~~py
+len(<variável>)
+~~~
+
+**Exemplo**
+
+~~~py
+len(list_01)
 ~~~
 
 **O que a função print faz:**
@@ -224,6 +304,38 @@ round(<variável>)
 print(round(1.3569874587, 6))
 ~~~
 
+**O que a função shape faz:**
+
+Retorna um tuple de dimensões da matriz.
+
+**Sintaxe**
+
+~~~py
+my_array.shape
+~~~
+
+**Exemplo**
+
+~~~py
+array_shape = my_array.shape
+~~~
+
+**O que a função values faz:**
+
+Traz todos os valores do dicionário.
+
+**Sintaxe**
+
+~~~py
+values()
+~~~
+
+**Exemplo**
+
+~~~py
+print(collect.values())
+~~~
+
 **O que a função while faz:**
 
 Repete a sequência de comandos definida em seu corpo enquanto a <condição> permanece verdadeira.
@@ -242,5 +354,3 @@ while numero < 6:
     print(numero)
     numero += 1
 ~~~
-
-
