@@ -169,6 +169,22 @@ Verifica se o operando a sua esquerda, está contido na lista a sua direita.
 2 and 3 in range(1,6)
 ~~~
 
+**O que faz a função index:**
+
+Retorna o index de determinado elemento.
+
+**Sintaxe**
+
+~~~py
+ list.index(x[, start[, end]])
+~~~
+
+**Exemplo**
+
+~~~py
+print(tupla.index('Canis Familiaris'))
+~~~
+
 **O que faz a função input:**
 
 É para entrada de dados feita pelo usuário.
@@ -247,6 +263,22 @@ range(<variável>):
 
 ~~~py
 range(0, 10)
+~~~
+
+**O que a função remove faz:**
+
+Remove o primeiro item encontrado na lista cujo valor é igual a x.
+
+**Sintaxe**
+
+~~~py
+list.remove(x)
+~~~
+
+**Exemplo**
+
+~~~py
+lista_01.remove('Felis Catus')
 ~~~
 
 **O que a função return faz:**
