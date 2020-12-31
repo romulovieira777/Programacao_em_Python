@@ -15,6 +15,38 @@ append(<variável>):
 lista_04.append('Gorila')
 ~~~
 
+**O que faz a função as:**
+
+Adiciona um apelido.
+
+**Sintaxe**
+
+~~~py
+as(<apelido>):
+~~~
+
+**Exemplo**
+
+~~~py
+import numpy as np
+~~~
+
+**O que faz a função array:**
+
+São estruturas de dados semelhantes às listas do Python, mas não tão flexíveis.
+
+**Sintaxe**
+
+~~~py
+array([[2, 3, 1], [4, 5, 7]])
+~~~
+
+**Exemplo**
+
+~~~py
+matriz = np.array([[2, 3, 1], [4, 5, 7]])
+~~~
+
 **O que faz a função def:**
 
 É para definir uma função que é uma sequência de comandos que executa alguma tarefa e que tem um nome.
