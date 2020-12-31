@@ -1,4 +1,20 @@
 ### :computer: Comandos em Python que foram usados nos Arquivos acima: :rocket:
+**O que faz a função append:**
+
+Adiciona qualquer valor completo, por exemplo, se enviarmos um objeto, ele adiciona o objeto, se enviarmos uma lista, ele adiciona a lista inteira ao invés de seus itens.
+
+**Sintaxe**
+
+~~~py
+append(<variável>):
+~~~
+
+**Exemplo**
+
+~~~py
+lista_04.append('Gorila')
+~~~
+
 **O que faz a função def:**
 
 É para definir uma função que é uma sequência de comandos que executa alguma tarefa e que tem um nome.
@@ -15,6 +31,38 @@ def nome(<parâmetros>):
 ~~~py
 def hello(meu_nome):
     print('Olá',meu_nome)
+~~~
+
+**O que faz a função del:**
+
+Remove um dado do seu dataset
+
+**Sintaxe**
+
+~~~py
+del(<variável[<posição>]>)
+~~~
+
+**Exemplo**
+
+~~~py
+del(collect)['Aedes Albopictus']
+~~~
+
+**O que faz a função difference:**
+
+Traz os valores não correspondente nos dois conjuntos.
+
+**Sintaxe**
+
+~~~py
+difference(<variável>)
+~~~
+
+**Exemplo**
+
+~~~py
+set_05 = set_02.difference(set_01)
 ~~~
 
 **O que faz a função else:**
@@ -89,22 +137,6 @@ if idade < 20:
     print('Você é jovem!')
 ~~~
 
-**O que faz a função in:**
-
-Verifica se o operando a sua esquerda, está contido na lista a sua direita.
-
-**Sintaxe**
-
-~~~py
- in (<variável>)
-~~~
-
-**Exemplo**
-
-~~~py
-2 and 3 in range(1,6)
-~~~
-
 **O que faz a função import:**
 
 É uma linha com o caminho completo para o arquivo python que contem o módulo que se deseja importar.
@@ -121,6 +153,22 @@ import(<biblioteca>)
 import math
 ~~~
 
+**O que faz a função in:**
+
+Verifica se o operando a sua esquerda, está contido na lista a sua direita.
+
+**Sintaxe**
+
+~~~py
+ in (<variável>)
+~~~
+
+**Exemplo**
+
+~~~py
+2 and 3 in range(1,6)
+~~~
+
 **O que faz a função input:**
 
 É para entrada de dados feita pelo usuário.
@@ -135,6 +183,38 @@ input(<variável>)
 
 ~~~py
 nome = input('Entre com o nome do aluno: ')
+~~~
+
+**O que faz a função intersection:**
+
+Traz somente os valores existentes nos dois conjuntos.
+
+**Sintaxe**
+
+~~~py
+intersection(<variável>)
+~~~
+
+**Exemplo**
+
+~~~py
+set_03 = set_01.intersection(set_02)
+~~~
+
+**O que faz a função items:**
+
+Traz todos os items da lista
+
+**Sintaxe**
+
+~~~py
+items()
+~~~
+
+**Exemplo**
+
+~~~py
+print(collect.items())
 ~~~
 
 **O que a função print faz:**
@@ -203,6 +283,23 @@ round(<variável>)
 print(round(1.3569874587, 6))
 ~~~
 
+**O que a função set faz:**
+
+Transforma uma lista ou tupla em conjunto.
+
+**Sintaxe**
+
+~~~py
+set(<lista ou tupla>)
+~~~
+
+**Exemplo**
+
+~~~py
+print(set(biomolecules))
+~~~
+
+
 **O que a função sqrt faz:**
 
 Retorna a raíz quadrada do número.
@@ -233,6 +330,38 @@ str(<variável>)
 
 ~~~py
 nome = str(input('Qual é seu nome? '))
+~~~
+
+**O que a função update faz:**
+
+Atualiza dicionário com pares chave/valor, sobrescrevendo chaves existentes.
+
+**Sintaxe**
+
+~~~py
+update(<dicionário>)
+~~~
+
+**Exemplo**
+
+~~~py
+collect.update(collect_02)
+~~~
+
+**O que a função values faz:**
+
+Traz todos os valores do dicionário.
+
+**Sintaxe**
+
+~~~py
+values()
+~~~
+
+**Exemplo**
+
+~~~py
+print(collect.values())
 ~~~
 
 **O que a função while faz:**
